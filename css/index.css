@@ -7,6 +7,9 @@
 }
 
 .hex-dl-btn {
+	background-color: white;
+	border: solid 3px green;
+	border-radius: 5px;
 	color: green;
 	font-size: .5em;
 }
