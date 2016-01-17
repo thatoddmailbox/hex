@@ -200,4 +200,5 @@ int main(hex_prgum)
 	}
 
 	_hex_main(argc, argv);
+	sput_ott("Hex sucess.")
 }
