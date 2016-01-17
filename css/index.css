@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-.hex-dl-btn {
+.hex-dl-btn, .hex-dl-btn:hover {
 	background-color: green;
 	border: solid 3px green;
 	border-radius: 5px;
@@ -16,4 +16,13 @@
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.hex-dl-btn .fa {
+	position: relative;
+	transition: position 0.2s;
+}
+
+.hex-dl-btn:hover .fa {
+	top: 5px;
 }
