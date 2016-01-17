@@ -11,7 +11,7 @@
 	border: solid 3px green;
 	border-radius: 5px;
 	color: white;
-	font-size: .4em;
+	font-size: .6em;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
@@ -20,7 +20,7 @@
 
 .hex-dl-btn .fa {
 	position: relative;
-	transition: position 0.2s;
+	transition: top 0.2s;
 }
 
 .hex-dl-btn:hover .fa {
