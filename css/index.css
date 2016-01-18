@@ -19,6 +19,11 @@ nav.aboveVideo {
 	text-align: center;
 }
 
+#hex-lead-info {
+	font-size: 1em;
+	text-align: center;
+}
+
 .hex-dl-btn, .hex-dl-btn:hover {
 	background-color: green;
 	border: solid 3px green;
@@ -34,10 +39,10 @@ nav.aboveVideo {
 
 .hex-dl-btn .fa {
 	position: absolute;
-	top: 0;
+	top: 13px;
 	transition: top 0.2s;
 }
 
 .hex-dl-btn:hover .fa {
-	top: 5px;
+	top: 15px;
 }
