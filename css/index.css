@@ -1,3 +1,15 @@
+body {
+	padding-top: 0 !imporant;
+}
+
+nav {
+	transition: background 0.1s;
+}
+
+nav.aboveVideo {
+	background: transparent;
+}
+
 #frontWelcome {
 	color: white;
 	font-size: 3em;
