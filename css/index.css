@@ -1,9 +1,9 @@
 body {
-	padding-top: 0 !imporant;
+	padding-top: 0 !important;
 }
 
 nav {
-	transition: background 0.1s;
+	transition: background 1s;
 }
 
 nav.aboveVideo {
