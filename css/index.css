@@ -39,12 +39,12 @@ nav.aboveVideo {
 	text-align: center;
 }
 
-.hex-dl-btn, .hex-dl-btn:hover, .hex-dl-btn:active {
+.hex-dl-btn, .hex-dl-btn:hover, .hex-dl-btn:active, .hex-dl-btn:active:hover {
 	background-color: green;
 	border: solid 3px green;
 	border-radius: 5px;
 	color: white;
-	font-size: .6em;
+	font-size: .5em;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 50px;
@@ -60,6 +60,6 @@ nav.aboveVideo {
 	transition: top 0.2s;
 }
 
-.hex-dl-btn:hover .fa, .hex-dl-btn:active .fa {
+.hex-dl-btn:hover .fa, .hex-dl-btn:active .fa, .hex-dl-btn:active:hover .fa {
 	top: 20px;
 }
