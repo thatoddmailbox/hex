@@ -29,13 +29,15 @@ nav.aboveVideo {
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
+	position: relative;
 }
 
 .hex-dl-btn .fa {
-	margin-top: 0;
-	transition: margin-top 0.2s;
+	position: absolute;
+	top: 0;
+	transition: top 0.2s;
 }
 
 .hex-dl-btn:hover .fa {
-	margin-top: 5px;
+	top: 5px;
 }
