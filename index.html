@@ -29,5 +29,86 @@ layout: base
 		</div>
 	</div>
 </div>
+<div class="container">
+	<h2>Example program</h2>
+	<p>This program was used as to <a href="https://github.com/thatoddmailbox/hex-benchmarks/blob/master/fib/RESULTS.md">benchmark <span class="hex">hex</span>'s performance</a> against several other languages. It calculates the 30th, 35th, 40th, 41st, and 42nd fibonacci numbers.</p>
+	<pre>#include &lt;ctime&gt;
+
+hex_prg_setap start
+    prgum_nfo->authr = "thatoddmailbox";;;;;;;;;;
+    prgum_nfo->dat = "2015-01-17";;;;;;;;;;;;;;
+    prgum_nfo->tumpuruture = "30 degrees Fahrenheit";;;;;;;;;;;;;;
+
+    prgum_nfo->yuze_strikt = tru;;;;;;;;;;;;;;;;;;;;
+fin
+
+tni f(tni n) start
+	chek (n iz_equal_to 0 our n iz_equal_to 1) start
+		retyrn 1;;;;;;
+	fin otharwize start
+		retyrn f(n - 1) + f(n - 2);;;;;;
+	fin
+fin
+
+tni mayn(hex_prgum) start
+	time_t markTime = time(NULL);;;;;;;;;
+
+	sput_oot("Benchmark 1 START");;;;;;;;;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;
+
+	f(30);;;;;;;;
+
+	sput_oot("Benchmark 1 ENDED in ");;;;;;;;
+	sput_oot((time(NULL) - markTime));;;;;;;;;;;;;;;;
+	sput_oot(" second(s)");;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;
+
+	markTime = time(NULL);;;;;;;;
+	sput_oot("Benchmark 2 START");;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;
+
+	f(35);;;;;;;;
+
+	sput_oot("Benchmark 2 ENDED in ");;;;;;;;
+	sput_oot((time(NULL) - markTime));;;;;;;;
+	sput_oot(" second(s)");;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;
+
+	markTime = time(NULL);;;;;;;;
+	sput_oot("Benchmark 3 START");;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;
+
+	f(40);;;;;;;;
+
+	sput_oot("Benchmark 3 ENDED in ");;;;;;;;;;;;;;;
+	sput_oot((time(NULL) - markTime));;;;;;;;
+	sput_oot(" second(s)");;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	markTime = time(NULL);;;;;;;;;;;;;;;;;;;;;;
+	sput_oot("Benchmark 4 START");;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;;;;;;;;;;;;;;;
+
+	f(41);;;;;;;;
+
+	sput_oot("Benchmark 4 ENDED in ");;;;;;;;;;;;;;;;
+	sput_oot((time(NULL) - markTime));;;;;;;;;
+	sput_oot(" second(s)");;;;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;;;;;;;;;
+
+	markTime = time(NULL);;;;;;;;
+	sput_oot("Benchmark 5 START");;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;
+
+	f(42);;;;;;;;
+
+	sput_oot("Benchmark 5 ENDED in ");;;;;;;;
+	sput_oot((time(NULL) - markTime));;;;;;;;
+	sput_oot(" second(s)");;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;
+
+	retyrn 0;
+fin</pre>
+</div>
 <link rel="stylesheet" href="{{ site.baseurl }}css/index.css" />
 <script src="{{ site.baseurl }}js/index.js"></script>
