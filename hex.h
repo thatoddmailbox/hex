@@ -76,6 +76,11 @@ void spat_ut(const char* str)
 	std::cout << str;
 }
 
+void spat_ut(int num)
+{
+	std::cout << num;
+}
+
 void sai_Text(std::string text)
 {
 	/*SpeechChannel speechchannel;
