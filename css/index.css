@@ -3,17 +3,21 @@ body {
 }
 
 nav {
+	border-color: transparent;
 	color: white;
 	transition: background .5s;
 }
 
 nav.aboveVideo {
 	background: transparent;
-	border-color: transparent;
 }
 
 .navbar-inverse.aboveVideo .navbar-nav>li>a {
 	color: #CCC;
+}
+
+.navbar-inverse.aboveVideo .navbar-nav>li>a:hover {
+	color: #FFF;
 }
 
 #frontWelcome {
