@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var scrollChk = function() {
-		if (window.pageYOffset > 380) {
+		if (window.pageYOffset > 350) {
 			$("nav").removeClass("aboveVideo");
 		} else {
 			$("nav").addClass("aboveVideo");
