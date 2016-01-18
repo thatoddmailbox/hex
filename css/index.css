@@ -3,11 +3,12 @@ body {
 }
 
 nav {
-	transition: background 1s;
+	transition: background .5s;
 }
 
 nav.aboveVideo {
 	background: transparent;
+	border-color: transparent;
 }
 
 #frontWelcome {
