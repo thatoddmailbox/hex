@@ -26,7 +26,7 @@ nav.aboveVideo {
 
 #frontWelcome {
 	color: white;
-	font-size: 3em;
+	font-size: 4em;
 	padding-top: 125px;
 	padding-bottom: 125px;
 	text-align: center;
@@ -35,7 +35,7 @@ nav.aboveVideo {
 #hex-lead-info {
 	font-size: 3em;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	text-align: center;
 }
 
