@@ -3,13 +3,17 @@ body {
 }
 
 nav {
-	border-color: transparent;
+	border-color: transparent !important;
 	color: white;
 	transition: background .5s;
 }
 
 nav.aboveVideo {
 	background: transparent;
+}
+
+.navbar-nav>li>a {
+	transition: color .5s;
 }
 
 .navbar-inverse.aboveVideo .navbar-nav>li>a {
