@@ -57,10 +57,10 @@ nav.aboveVideo {
 .hex-dl-btn .fa {
 	position: absolute;
 	top: 13px;
-	left: 9px;
+	left: 12px;
 	transition: top 0.2s;
 }
 
 .hex-dl-btn:hover .fa, .hex-dl-btn:active .fa, .hex-dl-btn:active:hover .fa {
-	top: 20px;
+	top: 19px;
 }
