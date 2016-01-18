@@ -13,7 +13,7 @@ nav.aboveVideo {
 }
 
 .navbar-inverse.aboveVideo .navbar-nav>li>a {
-	color: #CCC !important;
+	color: #CCC;
 }
 
 #frontWelcome {
