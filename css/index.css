@@ -19,10 +19,10 @@
 }
 
 .hex-dl-btn .fa {
-	position: relative;
-	transition: top 0.2s;
+	margin-top: 0;
+	transition: margin-top 0.2s;
 }
 
 .hex-dl-btn:hover .fa {
-	top: 5px;
+	margin-top: 5px;
 }
