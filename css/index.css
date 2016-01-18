@@ -3,6 +3,7 @@ body {
 }
 
 nav {
+	color: white;
 	transition: background .5s;
 }
 
@@ -32,9 +33,10 @@ nav.aboveVideo {
 	font-size: .6em;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-right: 10px;
 	position: relative;
+	text-align: right;
 }
 
 .hex-dl-btn .fa {
