@@ -33,7 +33,9 @@ nav.aboveVideo {
 }
 
 #hex-lead-info {
-	font-size: 1em;
+	font-size: 3em;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
