@@ -12,6 +12,10 @@ nav.aboveVideo {
 	border-color: transparent;
 }
 
+.navbar-inverse.aboveVideo .navbar-nav>li>a {
+	color: #CCC !important;
+}
+
 #frontWelcome {
 	color: white;
 	font-size: 3em;
