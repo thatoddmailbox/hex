@@ -33,13 +33,13 @@ nav.aboveVideo {
 }
 
 #hex-lead-info {
-	font-size: 3em;
+	font-size: 4em;
 	padding-top: 20px;
 	padding-bottom: 15px;
 	text-align: center;
 }
 
-.hex-dl-btn, .hex-dl-btn:hover {
+.hex-dl-btn, .hex-dl-btn:hover, .hex-dl-btn:active {
 	background-color: green;
 	border: solid 3px green;
 	border-radius: 5px;
@@ -47,7 +47,7 @@ nav.aboveVideo {
 	font-size: .6em;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	padding-left: 40px;
+	padding-left: 50px;
 	padding-right: 10px;
 	position: relative;
 	text-align: right;
@@ -60,6 +60,6 @@ nav.aboveVideo {
 	transition: top 0.2s;
 }
 
-.hex-dl-btn:hover .fa {
-	top: 15px;
+.hex-dl-btn:hover .fa, .hex-dl-btn:active .fa {
+	top: 20px;
 }
