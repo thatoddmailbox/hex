@@ -2,6 +2,28 @@ body {
 	padding-top: 0 !important;
 }
 
+@keyframes welcomeFade {
+	0% {
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	75% {
+		transform: translateY(7px);
+		opacity: 0.95;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.hex-welcome-text {
+	animation-name: welcomeFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.3s;
+}
+
 nav {
 	border-color: transparent !important;
 	color: white;
