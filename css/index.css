@@ -7,7 +7,7 @@ body {
 		transform: translateY(40px);
 		opacity: 0;
 	}
-	75% {
+	65% {
 		transform: translateY(7px);
 		opacity: 0.95;
 	}
@@ -21,7 +21,7 @@ body {
 	animation-name: welcomeFade;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 0.3s;
+	animation-duration: 1s;
 }
 
 nav {
