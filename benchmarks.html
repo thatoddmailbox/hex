@@ -1,0 +1,53 @@
+---
+title: Benchmarks
+layout: page
+---
+<p>We compared the performance of Hex to many other popular programming languages, and you can see our results below. So far, we only have one benchmark, but we'd love to have more! Please contribute to <a href="https://github.com/thatoddmailbox/hex-benchmarks">our repository</a>!</p>
+<div id="fib_chart"></div>
+<table>
+	<thead>
+		<tr>
+			<th>Benchmark</th>
+			<th>Hex</th>
+			<th>Lua</th>
+			<th>Ruby</th>
+			<th>Python</th>
+			<th>PHP</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="https://github.com/thatoddmailbox/hex-benchmarks/blob/master/fib/RESULTS.md">fib</a></td>
+			<td>7 seconds</td>
+			<td>177 seconds</td>
+			<td>191 seconds</td>
+			<td>329 seconds</td>
+			<td>339 seconds</td>
+		</tr>
+	</tbody>
+</table>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1.0', {'packages':['corechart']});
+google.setOnLoadCallback(drawChart);
+function drawChart() {
+	// TODO: stop repeating data from above
+	// TODO: but keep table working for noscript users
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Language');
+	data.addColumn('number', 'Total time (seconds)');
+	data.addRows([
+		['Hex', 7],
+		['Lua', 177],
+		['Ruby', 191],
+		['Python', 329],
+		['PHP', 339]
+	]);
+	var options = {'title':'Fibonacci benchmark results (lower is better)',
+	'width':400,
+	'height':300};
+	var chart = new google.visualization.LineChart(document.getElementById('fib_chart'));
+    chart.draw(data, options);
+}
+</script>
