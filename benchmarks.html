@@ -47,7 +47,7 @@ function drawChart() {
 	var options = {'title':'Fibonacci benchmark results (lower is better)',
 	'width':400,
 	'height':300};
-	var chart = new google.visualization.LineChart(document.getElementById('fib_chart'));
+	var chart = new google.visualization.BarChart(document.getElementById('fib_chart'));
     chart.draw(data, options);
 }
 </script>
