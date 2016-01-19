@@ -1,0 +1,12 @@
+body {
+	padding-top: 50px;
+}
+
+.navbar-brand {
+	color: green !important;
+	font-family: monospace;
+}
+
+.hex {
+	font-family: monospace;
+}
