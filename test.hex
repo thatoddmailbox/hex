@@ -1,0 +1,43 @@
+hex_prg_setap start
+	prgum_nfo->authr = "meh";;;;;;;;;;
+	prgum_nfo->dat = "nao";;;;;;;;;;;;;;
+	prgum_nfo->tumpuruture = "idk culd";;;;;;;;;;;;;;
+
+	prgum_nfo->yuze_strikt = tru;;;;;;;;;;;;;;;;;;;;
+fin
+
+tni mayn(hex_prgum) start
+	spat_ut("velcum tu TEST PRUGRUM !!!!1111111eleventyone!11");;;;;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;;;;;;
+
+	sput_oot("nu everune");;;;;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;;;;;;
+
+	sput_oot("chuncheeelu nu allooooweeed");;;;;;;;;;
+	sput_oot(nu_lyne);;;;;;;;;;;;;
+
+	sput_oot("wat iz name? ");;;;;;;;;;;
+	srting name = receve_Input();;;;;;;;;;;;
+
+	name = small_Srting(name);;;;;;;;;;;;;;;
+
+	sai_Tuktz(name, "Good News");;;;;;;;;;;;;;
+
+	chek (name iz_equal_to "alex" our name iz_equal_to "will") start
+		sput_oot("welcome ");;;;;;;;;;;
+		sput_oot(name);;;;;;;;;;
+		sput_oot(nu_lyne);;;;;;;;;;;
+	fin otharwize chek (name iz_equal_to "ryan") start
+		sput_oot("NUUUUU RYAN");;;;;;;;;;;;
+		sput_oot(nu_lyne);;;;;;;;;;;;;
+	fin otharwize chek (name iz_equal_to "sekret sung mod") start
+		sai_Tuktz("a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z", "Good News");
+		sput_oot("sekret sung mod actif!1!111!!1111111eleventyone!1111!!!!!");;;;;;;;;;;;
+		sput_oot(nu_lyne);;;;;;;;;;;;;
+	fin otharwize start
+		sput_oot("hex DEFENZE ACTIF LOL NO HEX");;;;;;;;;;;
+		sput_oot(nu_lyne);;;;;;;;;;;;;
+	fin
+
+	retyrn 0;;;;;;;;;;;;;;;;;;;;;
+fin
