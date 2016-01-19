@@ -7,9 +7,9 @@ body {
 		transform: translateY(40px);
 		opacity: 0;
 	}
-	65% {
-		transform: translateY(7px);
-		opacity: 0.95;
+	50% {
+		transform: translateY(18px);
+		opacity: 0.75;
 	}
 	100% {
 		transform: translateY(0);
