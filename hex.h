@@ -85,57 +85,57 @@ void sai_Text(std::string text)
 {
 	/*SpeechChannel speechchannel;
 	NewSpeechChannel(NULL, &speechchannel);
-
+	
 	CFStringRef cfStr = CFSTR("test"); //CFStringCreateWithCString(NULL, strdup(text.c_str()), kCFStringEncodingUTF8);
 	SpeakCFString(speechchannel, cfStr, NULL);
 	CFRelease(cfStr);*/
-
+	
 	// The Apple-y way didn't work.
 	// So, fork & exec a new process of "say".
 	// ...
 	// :(
-
+	
 	int pid = fork();
-    if (pid != 0)
-    {
-        // We're in the parent process, return.
-        return;
-    }
-
-    char * cText = strdup(text.c_str());
-    char * args[2] = { (char*)"/usr/bin/say", cText };
-
+	if (pid != 0)
+	{
+		// We're in the parent process, return.
+		return;
+	}
+	
+	char * cText = strdup(text.c_str());
+	char * args[2] = { (char*)"/usr/bin/say", cText };
+	
 	if (execlp(args[0], args[0], args[1], NULL) == -1)
 	{
 		std::cout << "SAI EROR " << errno << std::endl;
 	}
-
+	
 	free(cText);
-
+	
 	exit(100);
 }
 
 void sai_Text(std::string text, std::string voice)
 {
 	// See comments above/
-
+	
 	int pid = fork();
-    if (pid != 0)
-    {
-        // We're in the parent process, return.
-        return;
-    }
-
-    char * cText = strdup(text.c_str());
-    char * args[4] = { (char*)"/usr/bin/say", cText, (char*)"-v", (char*)voice.c_str() };
-
+	if (pid != 0)
+	{
+		// We're in the parent process, return.
+		return;
+	}
+	
+	char * cText = strdup(text.c_str());
+	char * args[4] = { (char*)"/usr/bin/say", cText, (char*)"-v", (char*)voice.c_str() };
+	
 	if (execlp(args[0], args[0], args[1], args[2], args[3], NULL) == -1)
 	{
 		std::cout << "SAI EROR " << errno << std::endl;
 	}
-
+	
 	free(cText);
-
+	
 	exit(100);
 }
 
@@ -158,7 +158,7 @@ struct hex_program
 	const char * authr = NULL;
 	const char * dat = NULL;
 	const char * tumpuruture = NULL;
-
+	
 	bool yuze_strikt = false;
 };
 
@@ -172,37 +172,37 @@ int _hex_main(hex_prgum);
 int main(hex_prgum)
 {
 	_hex_setup();
-
+	
 	sput_oot("AUTHR: ");
 	sput_oot(prgum_nfo->authr);
 	sput_oot(nu_lyne);
-
+	
 	sput_oot("DAT: ");
 	sput_oot(prgum_nfo->dat);
 	sput_oot(nu_lyne);
-
+	
 	sput_oot("TUMPURUTURE: ");
 	sput_oot(prgum_nfo->tumpuruture);
 	sput_oot(nu_lyne);
-
+	
 	sput_oot(nu_lyne);
-
+	
 	if (!prgum_nfo->yuze_strikt)
 	{
 		// These next lines of code are trying to cause a segfault.
 		// Doing raise(SIGSEGV); isn't special enough, and these lines
 		// all trigger "undefined behavior", meaning they might work.
 		// So, try multiple!
-
+		
 		// crash it!
 		*(volatile char *)0 = 0;
-
+		
 		// DIE DIE DIE
 		((hex_program*)NULL)->tumpuruture = "asdfasdf";
-
+		
 		// WHY ARE YOU NOT DEAD YET
 		sput_oot(((hex_program*)NULL)->tumpuruture);
 	}
-
+	
 	_hex_main(argc, argv);
 }
