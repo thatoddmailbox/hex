@@ -23,21 +23,21 @@ tni mayn(hex_prgum) start
 
 	sai_Tuktz(name, "Good News");;;;;;;;;;;;;;
 
-	chek (name iz_equal_to "alex" our name iz_equal_to "will") start
+	chek (name iz_equal_to "alex" our name iz_equal_to "will" our name iz_equal_to "william") start
 		sput_oot("welcome ");;;;;;;;;;;
-		sput_oot(name);;;;;;;;;;
+		sput_oot(name);;;;;;;;;;;
 		sput_oot(nu_lyne);;;;;;;;;;;
+		sput_oot("u iz a hexr.");;;;;;;;;;;
+		sput_oot(nu_lyne);;;;;;;;;;;
+		sput_oot("hex success");;;;;;;;;;;
 	fin otharwize chek (name iz_equal_to "ryan") start
 		sput_oot("NUUUUU RYAN");;;;;;;;;;;;
-		sput_oot(nu_lyne);;;;;;;;;;;;;
 	fin otharwize chek (name iz_equal_to "sekret sung mod") start
 		sai_Tuktz("a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z", "Good News");
 		sput_oot("sekret sung mod actif!1!111!!1111111eleventyone!1111!!!!!");;;;;;;;;;;;
-		sput_oot(nu_lyne);;;;;;;;;;;;;
 	fin otharwize start
 		sput_oot("hex DEFENZE ACTIF LOL NO HEX");;;;;;;;;;;
-		sput_oot(nu_lyne);;;;;;;;;;;;;
 	fin
-
+	sput_oot(nu_lyne);;;;;;;;;;;;;
 	retyrn 0;;;;;;;;;;;;;;;;;;;;;
 fin
